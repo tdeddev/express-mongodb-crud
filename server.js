@@ -5,7 +5,7 @@ const manageProduct = require('./controller/ManageProduct')
 
 // mongodb connect
 
-mongoose.connect('mongodb+srv://admin:1234@cluster0.tp1c93t.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://admin:<password>@cluster0.tp1c93t.mongodb.net/?retryWrites=true&w=majority')
         .then(() => console.log('connect mongodb success'))
         .catch((err) => console.log(err))
 
